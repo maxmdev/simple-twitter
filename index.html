@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Twitter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="root">
+		<div id="alertMessage" class="hidden"><span id="alertMessageText"></span></div>
+		<div id="tweetItems" class="listPage">
+			<h1>Simple Twitter</h1>
+			<div id="navigationButtons">
+				<button class="addTweet">Add tweet</button>
+			</div>
+			<ul id="list"></ul>
+		</div>
+		<div id="modifyItem" class="hidden">
+			<h1 id="modifyItemHeader">Edit tweet</h1>
+			<textarea id="modifyItemInput"></textarea>
+			<div class="formButtons">
+				<button id="cancelModification">Cancel</button>
+				<button id="saveModifiedItem">Save Changes</button>
+			</div>
+		</div>
+	</div>
+	<script src="./app.js"></script>
+</body>
+</html>
