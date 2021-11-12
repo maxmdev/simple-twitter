@@ -1,6 +1,6 @@
 const root = document.getElementById('root');
 const tweetStorage = window.localStorage;
-const maxMessageLenght = 140;
+const maxMessageLength = 140;
 const zero = 0;
 const one = 1;
 const notificationTimeOut = 2000;
