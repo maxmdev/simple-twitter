@@ -168,7 +168,7 @@ const createTweet = (message) => {
         showNotification('Error! You can\'t tweet about that');
     }
 
-    if (!isDuplicate && message !== '' && message.length <= maxMessageLenght) {
+    if (!isDuplicate && message !== '' && message.length <= maxMessageLength) {
         let tweets = getAllTweets();
         const lastTweetId = tweets.length === zero ? one : tweets[tweets.length - one].id + one;
 
